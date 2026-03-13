@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Virtual Tourist Explorer - Explore</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-brand">🌍 Virtual Tourist Explorer</div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="explore.html" class="active">Explore</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="explore-page">
+        <h1 class="page-title">Choose a Monument</h1>
+        <p class="page-subtitle">Pick from Castle Fortress, Palace, or Eiffel Tower — then click Enter 3D World to explore.</p>
+
+        <div class="cards-container">
+            <!-- Palace Card -->
+            <article class="tourist-card">
+                <div class="card-image">
+                    <img src="palace.png" alt="Palace">
+                </div>
+                <div class="card-content">
+                    <h2>Palace</h2>
+                    <p>A grand palace with ornate domes and sweeping staircases. Explore its halls and courtyards in 3D.</p>
+                    <a href="world.html?place=taj" class="btn btn-card">Enter 3D World</a>
+                </div>
+            </article>
+
+            <!-- Eiffel Tower Card -->
+            <article class="tourist-card">
+                <div class="card-image">
+                    <img src="eiffel.png" alt="Eiffel Tower">
+                </div>
+                <div class="card-content">
+                    <h2>Eiffel Tower</h2>
+                    <p>An iconic iron lattice tower located in Paris, France. One of the most recognizable structures in the world.</p>
+                    <a href="world.html?place=eiffel" class="btn btn-card">Enter 3D World</a>
+                </div>
+            </article>
+
+            <!-- Castle Fortress Card -->
+            <article class="tourist-card">
+                <div class="card-image">
+                    <img src="castle.png" alt="Castle Fortress">
+                </div>
+                <div class="card-content">
+                    <h2>Castle Fortress</h2>
+                    <p>A towering stone fortress with ramparts, watchtowers, and dark corridors. Explore its walls and hidden chambers.</p>
+                    <a href="world.html?place=wall" class="btn btn-card">Enter 3D World</a>
+                </div>
+            </article>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <p>Virtual Tourist Explorer &copy; 2025 | Pick a landmark and start exploring!</p>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>
